@@ -7,8 +7,7 @@
 import tweepy
 import markovify
 
-from twitter_credentials import consumer_key, consumer_secret,\
-    access_token, access_token_secret
+from twitter_credentials import *
 from time import sleep
 
 
