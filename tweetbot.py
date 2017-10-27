@@ -1,3 +1,9 @@
+"""
+    Twitter bot to share 140 character markov chains from
+    EconTalk podcast transcripts.
+
+"""
+
 import tweepy
 import markovify
 
@@ -7,7 +13,7 @@ from time import sleep
 
 
 def main():
-    bot = TweetBot("corpus.txt")
+    bot = TweetBot("data/corpus.txt")
     bot.automate(3600)
 
 
